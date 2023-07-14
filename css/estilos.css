@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+}
+input[type="text"], label, a{
+    display: block;
+    margin: 6px 0px;
+    width: 80%;
+}
+
+form{
+    margin-top: 53px;
+}
