@@ -2,7 +2,7 @@ class FormEngine{
     async render(){
 
         var peticion = "Paciente"
-        const response = await fetch('http://localhost:3002/formulario/'+peticion)
+        const response = await fetch('http://localhost:3000/formulario/'+peticion)
         const form = await response.json()
         
         const formHtml = document.createElement("form")
